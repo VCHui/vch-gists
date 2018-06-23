@@ -1,7 +1,9 @@
 # [vch-gists](https://gist.github.com/VC-H)
 Just a link to [my gists on github](https://gist.github.com/VC-H)
 
-## Having fun with recursions and python
+## Highlights
+
+### Having fun with recursions and python
 * [von Neumann ordinals generator](https://gist.github.com/VC-H/6ace00e5ce47d1e845381c8b6be91f4b)
 * [Hermite polynomials](https://gist.github.com/VC-H/237b1bde55f8da1589ebe51bfa0741d6)
 * [The Sieve of Eratosthenes](https://gist.github.com/VC-H/126c0b8aa129f45b36aa3a05d4acab4a)
