@@ -1,8 +1,6 @@
-# Using Python
+# Using Python on Max OS X
 
 ## A typical system
-
-### Mac OS X
 
 * Python is a framework
   - Lib location: `/System/Library/Frameworks/Python.framework/Versions/2.7`
@@ -11,15 +9,9 @@
 
 * User environment based on the Mac OS X host
   - Location: `${HOME}/Library/Python/2.7`
-
-### Linux (Ubuntu 18.04)
-
-* `python3.7` is the default installation
-  - Lib location: `/usr/lib/python`
-
-* User environment based on the Linux host
-  - Location: `${HOME}/.local/`
-
+  - :warning: `${HOME}/Library/Python/2.7/bin` is __NOT__ on
+    `${PATH}` by default
+    - Require manual update to `~/.bash_profile`
 
 ## Aims
 
@@ -27,7 +19,7 @@
 
 * Multiple user virtual environments based on the host
   - Override the default only when activated
-  - Locations:
+  - Locations of the environments to go, e.g.
     - `${HOME}/opt/venv0`
     - `${HOME}/opt/venv1`
     - ...
@@ -37,12 +29,15 @@
   - Location: `${HOME}/opt/miniconda3`
 
 * Multiple conda environments based on the miniconda3
-  - Locations:
+  - Locations of the environments to go, e.g.
     - `${HOME}/opt/miniconda3/env/2.7`
     - `${HOME}/opt/miniconda3/env/pytorch`
     - `${HOME}/opt/miniconda3/env/tensorflow`
     - ...
   - `conda remove --name 2.7 --all` to remove an environment
+
+* `rm -rf ~/opt/miniconda3` to remove the miniconda3
+  installation completely
 
 * `rm -rf ~/opt` to remove all the installations
 
@@ -143,30 +138,30 @@
   - :bulb: `pip install` will put the package in
     `~/opt/miniconda3/lib/python3.7/site-packages`
 
-* Setup a python2.7 environment based on miniconda3
+### Setup a python2.7 environment based on miniconda3
 
-  - Create the environment
-    ```shell
-    conda create --name 2.7 python=2.7
-    ```
+- Create the environment
+  ```shell
+  conda create --name 2.7 python=2.7
+  ```
 
-  - Activate the environment
-    ```shell
-    conda activate 2.7
-    ```
-    - :bulb: `python` and `pip` are found on `~/opt/miniconda3/envs/2.7/bin`
-    - :bulb: `pip install` will put the package in
-      `~/opt/miniconda3/envs/2.7/lib/python2.7/site-packages`
+- Activate the environment
+  ```shell
+  conda activate 2.7
+  ```
+  - :bulb: `python` and `pip` are found on `~/opt/miniconda3/envs/2.7/bin`
+  - :bulb: `pip install` will put the package in
+    `~/opt/miniconda3/envs/2.7/lib/python2.7/site-packages`
 
-  - Deactivate the environment
-    ```shell
-    conda deactivate
-    ```
+- Deactivate the environment
+  ```shell
+  conda deactivate
+  ```
 
-  - Remove the environment
-    ```shell
-    conda remove --name 2.7 --all
-    ```
+- Remove the environment
+  ```shell
+  conda remove --name 2.7 --all
+  ```
 
 * List all environments
   ```shell
