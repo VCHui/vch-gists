@@ -2,6 +2,8 @@
 
 ## A typical system
 
+* Yosemite (Mac OS X 10.0) and above
+
 * Python is a framework
   - Lib location: `/System/Library/Frameworks/Python.framework/Versions/2.7`
   - `/usr/lib/python2.7` is symlinked to `...framework/Versions/2.7/lib`
