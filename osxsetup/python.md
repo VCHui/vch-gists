@@ -140,6 +140,12 @@
   - :bulb: `pip install` will put the package in
     `~/opt/miniconda3/lib/python3.7/site-packages`
 
+* Enabling TAB completion (https://docs.conda.io/projects/conda/en/latest/user-guide/configuration/enable-tab-completion.html)
+  ```shell
+  conda install argcomplete
+  eval "$(register-python-argcomplete conda)"
+  ```
+
 ### Setup a python2.7 environment based on miniconda3
 
 - Create the environment
@@ -169,3 +175,4 @@
   ```shell
   conda env list
   ```
+
