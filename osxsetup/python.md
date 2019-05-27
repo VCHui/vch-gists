@@ -173,3 +173,16 @@
   conda env list
   ```
 
+
+## Using jupyter
+
+* List kernels
+  ```shell
+  jupyter kernspec list
+  ```
+
+* Install a kernel for any python environment
+  ```shell
+  pip install ipykernel
+  python -m ipykernel install --user --name venv2.7 --display-name "venv2.7"
+  ```
