@@ -178,7 +178,7 @@
 
 * List kernels
   ```shell
-  jupyter kernspec list
+  jupyter kernelspec list
   ```
 
 * Install a kernel for any python environment
