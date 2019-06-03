@@ -1,4 +1,4 @@
-# Using Python on Max OS X
+# Using Python on Mac OS X
 
 ## A typical system
 
