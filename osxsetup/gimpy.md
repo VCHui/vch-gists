@@ -8,10 +8,15 @@
 - :warning: gimp uses Python 2.7
 
 ## `GIMP.app` installation
-- `~/Applications/GIMP/Contents/MacOS`
+- `~/Applications/GIMP.app/Contents/MacOS`
   - `GIMP-bin`: the executable
   - `GIMP`: a script to run GIMP-bin in a prepared shell environment
   - `python`: the executable
+- Default `PYTHONHOME`
+  - `~/Applications/GIMPa.pp/Contents/Resources/lib/python2.7/`
+- `plug-ins` locations:
+  - `~/Applications/GIMPa.pp/Contents/Resources/lib/gimp/2.0/`
+  - `~/Library/Application Support/GIMP/2.8/`
 
 ## Using the Python of GIMP
 - `cp ~/Applications/GIMP/Contents/MacOS/GIMP gimpy`
