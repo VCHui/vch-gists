@@ -1,0 +1,29 @@
+# Using the Python of [GIMP](https://www.gimp.org) on Mac OS X
+
+## Version: Native build `gimp-2.8.22-x86_64.dmg`
+- Download from https://www.gimp.org/
+- Drop the `GIMP.app`![wilber](https://www.gimp.org/images/wilber16.png)
+  to `~/Applications`:file_folder:
+- 2.8.22 is version matched to ubuntu:18.04 and debian:9
+- :warning: gimp uses Python 2.7
+
+## `GIMP.app` installation
+- `~/Applications/GIMP/Contents/MacOS`
+  - `GIMP-bin`: the executable
+  - `GIMP`: a script to run GIMP-bin in a prepared shell environment
+  - `python`: the executable
+
+## Using the Python of GIMP
+- `cp ~/Applications/GIMP/Contents/MacOS/GIMP gimpy`
+- Edit [`gimpy`](osxsetup/gimpy) to run python instead of gimp
+
+## Install pip for the Python of GIMP
+- Need `get-pip.py` from https://www.python.org
+- `gimpy get-pip.py` to install
+  - pip, pip2, pip2.7
+  - easy_install, easy_install-2.7
+  - wheel
+  
+## pip install other packages - examples
+- `gimpy -m pip install ipython`
+- `gimpy -m pip install numpy matplotlib`
