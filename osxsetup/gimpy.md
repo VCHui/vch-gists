@@ -35,4 +35,4 @@
 - `gimpy -m pip install numpy matplotlib`
 
 ## :warning: Python library modules missing by gimp dmg
-- unittest
+- unittest, required by numpy and matplotlib
