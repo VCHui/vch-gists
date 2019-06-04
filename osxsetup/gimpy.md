@@ -33,3 +33,6 @@
 ## pip install other packages - examples
 - `gimpy -m pip install ipython`
 - `gimpy -m pip install numpy matplotlib`
+
+## :warning: Python library modules missing by gimp dmg
+- unittest
