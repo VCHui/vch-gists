@@ -13,7 +13,7 @@
   - `GIMP`: a script to run GIMP-bin in a prepared shell environment
   - `python`: the executable
 - Default `PYTHONHOME`
-  - `~/Applications/GIMPa.pp/Contents/Resources/lib/python2.7/`
+  - `~/Applications/GIMP.app/Contents/Resources/lib/python2.7/`
 - `plug-ins` locations:
   - `~/Applications/GIMPa.pp/Contents/Resources/lib/gimp/2.0/`
   - `~/Library/Application Support/GIMP/2.8/`
@@ -24,11 +24,12 @@
 
 ## Install pip for the Python of GIMP
 - Need `get-pip.py` from https://www.python.org
-- `gimpy get-pip.py` to install
+- Run `gimpy get-pip.py` to install executables to
+  `~/Applications/GIMP.app/Contents/Resources/bin`
   - pip, pip2, pip2.7
   - easy_install, easy_install-2.7
   - wheel
-  
+
 ## pip install other packages - examples
 - `gimpy -m pip install ipython`
 - `gimpy -m pip install numpy matplotlib`
