@@ -1,6 +1,6 @@
 # Using the Python of [GIMP](https://www.gimp.org) on Mac OS X
 
-## Using native build `gimp-2.8.22-x86_64.dmg`
+## Based on the native build `gimp-2.8.22-x86_64.dmg`
 - Download from https://www.gimp.org/
 - Drop the `GIMP.app`![wilber](https://www.gimp.org/images/wilber16.png)
   to `~/Applications`:file_folder:
@@ -37,3 +37,6 @@
 
 ## :warning: Python library modules missing by gimp dmg
 - unittest, required by numpy and matplotlib
+
+## :bulb: Add project specific resources
+- Use `GIMP>Preferences>Folders` to add project directories
