@@ -35,7 +35,7 @@
 - `gimpy -m pip install ipython`
 - `gimpy -m pip install numpy matplotlib`
 
-## :warning: Python library modules missing by gimp dmg
+## :warning: Missing Python library modules in gimp dmg
 - unittest, required by numpy and matplotlib
 
 ## :bulb: Add project specific resources
