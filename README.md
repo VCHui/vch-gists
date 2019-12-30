@@ -18,7 +18,8 @@ Just a link to [my gists on github](https://gist.github.com/VC-H)
     https://gist.github.com/VC-H/5a3c03e8743efd79cfa0cf177d561055)
 	![](https://avatars1.githubusercontent.com/u/23016403?s=20&v=1)
 
-### [A jupyter notebook page tester](
+### A jupyter notebook page tester
+* [As a gist](
     https://gist.github.com/VC-H/220037681a7ca9f1ef057bc7bb6e5d71)
 * Also on [nbviewer.jupyter.org](
     https://nbviewer.jupyter.org/gist/VC-H/220037681a7ca9f1ef057bc7bb6e5d71)
