@@ -1,5 +1,5 @@
 # [vch-gists](https://gist.github.com/VCHui)
-Just a link to [my gists on github](https://gist.github.com/VCHui)
+Just a compilaton of [my gists on github](https://gist.github.com/VCHui)
 
 ## Highlights
 
@@ -18,8 +18,12 @@ Just a link to [my gists on github](https://gist.github.com/VCHui)
     https://gist.github.com/VCHui/5a3c03e8743efd79cfa0cf177d561055)
 	![](https://avatars1.githubusercontent.com/u/23016403?s=20&v=1)
 
-### A jupyter notebook page tester
-* [As a gist](
-    https://gist.github.com/VCHui/220037681a7ca9f1ef057bc7bb6e5d71)
-* Also on [nbviewer.jupyter.org](
-    https://nbviewer.jupyter.org/gist/VCHui/220037681a7ca9f1ef057bc7bb6e5d71)
+### jupyter notebooks
+* [a tester to see how it view on gist](
+    https://gist.github.com/VCHui/220037681a7ca9f1ef057bc7bb6e5d71) (
+  also viewable on [nbviewer.jupyter.org](
+    https://nbviewer.jupyter.org/gist/VCHui/220037681a7ca9f1ef057bc7bb6e5d71) )
+* [`askpass` for notebook](
+    https://gist.github.com/VCHui/fe74d181bc9d923ff6a4a3d8d5d04ffa)
+* [List running notebooks on server using jupyter api](
+    https://gist.github.com/VCHui/79bcbd72b9de1b7e3dc44514dbff3842)
