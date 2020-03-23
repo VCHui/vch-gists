@@ -186,3 +186,7 @@
   pip install ipykernel
   python -m ipykernel install --user --name venv2.7 --display-name "venv2.7"
   ```
+* Uninstall a kernel
+  ```shell
+  jupyter kernelspec uninstall venv2.7
+  ```
