@@ -58,4 +58,5 @@
 
 ## crypto :arrows_counterclockwise: fiat currancies conversions
 
+  * https://etherscan.io/chart/etherprice
   * https://www.which.co.uk/news/2021/07/banks-ban-crypto-payments-over-fraud-spike/
