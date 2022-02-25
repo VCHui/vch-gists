@@ -50,3 +50,7 @@
 
    * set a **Price**
    * **Reserve for specific buyer** - requires buyer's wallet id
+
+## crypto :arrows_counterclockwise: fiat currancies conversions
+
+  * https://www.which.co.uk/news/2021/07/banks-ban-crypto-payments-over-fraud-spike/
