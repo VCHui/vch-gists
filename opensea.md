@@ -37,8 +37,12 @@
    2. check the **`Details`** tab to view
       * Contract Address - a link to the contract page on the blockchain
       * Token ID - :star: **the NFT** :star:
-      * Token Standard - **`ERC-1155`** or **`ERC-721`**
+      * Token Standard - 
         - (https://support.opensea.io/hc/en-us/articles/360063450733)
+          |          | semi-fungible | non-fungible |
+          | -------- | ------------- | ------------ |
+          | ethereum | ERC-1155      | ERC-721      |
+          | polygon  | KIP37         | KIP17        |
       * Blockchain
       * Metadata - **`editable`** or **`frozen`** 
         - **`frozen`** - a link to the metadata page
