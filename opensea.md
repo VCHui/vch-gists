@@ -46,8 +46,10 @@
           - :star: use `https://ipfs.io/ipfs/...` to view or download the item
    3. add the token in the wallet
       * https://metamask.zendesk.com/hc/en-us/articles/360058238591-NFT-tokens-in-your-MetaMask-wallet
-      * https://ethereum.org/en/developers/tutorials/how-to-view-nft-in-metamask/
+      * https://metamask.zendesk.com/hc/en-us/articles/360058488651-Does-MetaMask-support-ERC-1155-
       * https://support.opensea.io/hc/en-us/articles/1500003082561-Will-ERC-1155-NFTs-appear-in-my-wallet-
+      * https://ethereum.org/en/developers/tutorials/how-to-view-nft-in-metamask/
+
    
 3. **`Sell`**
 
