@@ -5,6 +5,7 @@
 ## Connect a wallet ( &#9776; > **`My Wallet`** )
 
   * Setup a crypto wallet, if not have one, e.g. https://metamask.io
+  * Official guide https://metamask.zendesk.com/hc/en-us
 
 ## Create and sell NFTs
 
