@@ -5,11 +5,11 @@
 ## Connect a wallet ( &#9776; > **`My Wallet`** )
 
   * Setup a crypto wallet, if not have one, e.g. https://metamask.io
-  * Official guide https://metamask.zendesk.com/hc/en-us
+  * Official guides https://metamask.zendesk.com/hc/en-us
 
 ## Create and sell NFTs
 
-* Official guide https://support.opensea.io/hc/en-us
+* Official guides https://support.opensea.io/hc/en-us
 
 1. From a collection (**&#9776;** > **`Account`** > **`My Collections`**)
 
@@ -28,7 +28,7 @@
    * :grey_exclamation: **Polygon blockchain** permits minting multiple copies
    * :exclamation: **Freeze metadata** can permanently _lock_ the metadata on _ipfs_
      - (https://support.opensea.io/hc/en-us/articles/1500012270982)
-     - cannot freeze until **`Create`**
+     - cannot freeze until **`Create`** :warning:
      - When _frozen_, item can only be deleted, no editing permitted
    * **`Create`** to add :smiley:
 
@@ -64,4 +64,5 @@
 ## crypto :arrows_counterclockwise: fiat currancies conversions
 
   * https://etherscan.io/chart/etherprice
+  * https://etherscan.io/chart/gasprice
   * https://www.which.co.uk/news/2021/07/banks-ban-crypto-payments-over-fraud-spike/
