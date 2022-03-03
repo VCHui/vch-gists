@@ -66,3 +66,9 @@
   * https://etherscan.io/chart/etherprice
   * https://etherscan.io/chart/gasprice
   * https://www.which.co.uk/news/2021/07/banks-ban-crypto-payments-over-fraud-spike/
+
+## Development resources
+
+  * opensea developer platform https://docs.opensea.io/
+
+
