@@ -40,5 +40,8 @@
 
 ## azure webapp
 1. https://stackoverflow.com/questions/57654279/how-to-run-cronjobs-on-an-azure-linux-hosted-webapp
+2. https://stackoverflow.com/questions/59822113/how-do-i-deploy-two-different-web-apps-to-single-azure-app-service-with-differen
+3. https://stackoverflow.com/questions/70734238/deploying-multiple-web-apps-on-azure-app-service-is-there-any-implications-of
+4. https://stackoverflow.com/questions/59443304/how-to-host-multiple-applications-in-the-same-azure-web-app-service
 
 
